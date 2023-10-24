@@ -1,0 +1,43 @@
+.contact-map {
+    width: 100%;
+    min-height: 400px;
+    height: 50dvh;
+}
+
+.contact-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    height: 50dvh;
+    padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+    flex-direction: column;
+    }
+    .contact-form {
+    margin-top: 20px;
+    }
+    .form-group {
+    margin-bottom: 20px;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+    width: 100%;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .contact-section {
+    display: flex;
+    justify-content: space-between;
+    }
+    .contact-info,
+    .contact-form {
+    width: 48%;
+    }
+}
